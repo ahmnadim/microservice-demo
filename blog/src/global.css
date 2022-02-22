@@ -1,0 +1,58 @@
+.App{
+    margin: 0 100px;
+}
+.createPost{
+    padding: 20px;
+    background-color: aquamarine;
+    min-height: 200px;
+    width: 300px;
+    border: 2px solid rgb(78, 77, 77);
+    border-radius: 6px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: space-around;
+    height: 100px;
+}
+.input{
+
+}
+.postTitle{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.submit{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+}
+
+.postListWrapper{}
+.card{
+    background-color: rgb(105, 105, 104);
+    height:200px;
+    width: 300px;
+}
+.cardBody{
+   
+}
+.postListWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.commentForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px;
+}
